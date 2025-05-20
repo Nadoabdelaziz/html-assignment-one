@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>KX Frontend First Task</title>
+  <link rel="stylesheet" href="styling.css">
 </head>
-<body>
 
+<body>
   <header>
     <nav>
       <a href="/" aria-label="Homepage">Happy Home</a>
@@ -14,44 +15,46 @@
         <li><a href="#">About Us</a></li>
         <li><a href="#">Blogs</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">Try Now</a></li>
+        <li><a href="#" class="blue-link">Try Now</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section>
-      <article>
+      <article class="left">
         <h1>Learn the Best Ways for Staying Productive</h1>
         <p>Working at home is definitely a convenient option and makes sense in these unprecedented times.</p>
-          <button type="button">Get Tips</button>
-          <button type="button">
-            <img src="btnImage.png" alt="Icon" style="width: 20px; height: 20px; margin-right: 8px;">Learn More
+        <div class="buttons">
+          <button class="get-tips">Get Tips</button>
+          <button class="learn-more">
+            <img src="assets/btnImage.png" alt="Icon">Learn More
           </button>
+        </div>
       </article>
-      <article>
-        <img src="headerImage.png" alt="Header Image">
+      <article class="right">
+        <img src="assets/headerImage.png" alt="Header Image">
       </article>
     </section>
-
-    <section>
+    
+    <section class="last-section">
         <article>
           <h3>
-            <img src="briefcase.png" alt="" srcset="">
+            <img src="assets/briefcase.png" alt="" srcset="">
             Work-Life Balance
           </h3>
           <p>Many remote jobs also come with flexible schedules, which means that workers can start and end their day as they choose.</p>
         </article>
         <article>
           <h3>
-            <img src="location.png" alt="" srcset="">
+            <img src="assets/location.png" alt="" srcset="">
             Work Anywhere
           </h3>
           <p>Having access to a broader range of job opportunities that aren’t limited by geographic location. This can be especially helpful.</p>
         </article>
         <article>
           <h3>
-            <img src="profile-2user.png" alt="" srcset="">
+            <img src="assets/profile-2user.png" alt="" srcset="">
             Improved Inclusivity
           </h3>
           <p>Remote work enables companies to embrace diversity and inclusion by hiring people from different backgrounds.</p>
